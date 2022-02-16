@@ -48,7 +48,7 @@ $ python test.py
 Start the API server
 
 ```bash
-$ uvicorn main:app
+$ python main.py
 ```
 
 ## Do everything from scratch
