@@ -21,4 +21,4 @@ def kazuma(message: str):
     'compute_time': end - start
   }
 
-uvicorn.run(app, port=port)
+uvicorn.run(app, host='0.0.0.0', port=port)
