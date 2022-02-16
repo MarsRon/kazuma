@@ -2,8 +2,10 @@ from fastapi import FastAPI
 from kazuma import generate
 import time
 import uvicorn
+from os import environ
 
 app = FastAPI()
+port = int(environ.get('PORT', 3000))
 
 @app.get('/')
 def root():
@@ -19,4 +21,4 @@ def kazuma(message: str):
     'compute_time': end - start
   }
 
-uvicorn.run(app)
+uvicorn.run(app, port=port)
