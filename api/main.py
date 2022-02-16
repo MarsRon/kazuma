@@ -1,5 +1,7 @@
 from fastapi import FastAPI
 from kazuma import generate
+import time
+import uvicorn
 
 app = FastAPI()
 
@@ -9,4 +11,12 @@ def root():
 
 @app.get('/kazuma')
 def kazuma(message: str):
-  return {'response': generate(message)}
+  start = time.perf_counter()
+  response = generate(message)
+  end = time.perf_counter()
+  return {
+    'response': response,
+    'compute_time': end - start
+  }
+
+uvicorn.run(app)
