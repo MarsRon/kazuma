@@ -6,19 +6,21 @@ Training data is webscraped from [cgtranslations.me](https://cgtranslations.me/k
 
 Model is trained on [Google Colab](https://colab.research.google.com).
 
-The API server runs on [FastAPI](https://fastapi.tiangolo.com) and [Uvicorn](https://uvicorn.org)
-
-> Note: This project is not fully documented, please use this at your own risk.
-
-> Another note: I am not proficient with Python, so if you see JavaScript code that's the reason why :p
+The API server runs on [FastAPI](https://fastapi.tiangolo.com) and [Uvicorn](https://uvicorn.org).
 
 ## Example
 
-Kazuma is pretty dumb so don't expect GPT-3 level of responses lol
+Kazuma is pretty dumb so don't expect GPT-3 level responses lol
 
 ![Example converstation with Kazuma](screenshots/example1.png)
 
 ## Usage
+
+Feel free to ~~steal~~ take inspiration from this project in any way you want, it's under MIT license so you can do whatever you want ;)
+
+> Note: This project is not fully documented, please use this at your own risk.
+
+> Another note: I am not proficient with Python, so if you see JavaScript code that's the reason why :p
 
 Clone the project
 
@@ -62,4 +64,4 @@ $ python main.py
 1. Get training data, see `data/README.md`
 2. Train the model on Google Colab, see `train/train-kazuma.ipynb`
 3. Download the model to `model/`
-4. Continue with [Usage](#usage)
+4. Continue with [Usage](#usage) step 2
