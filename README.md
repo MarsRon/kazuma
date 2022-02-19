@@ -2,6 +2,8 @@
 
 A [DialoGPT](https://github.com/microsoft/DialoGPT) AI chatbot model trained on KonoSuba Light Novel conversations.
 
+I've written a blog on this project. Check it out here: https://marsron.ml/blog/ai-chatbot-kazuma
+
 Training data is webscraped from [cgtranslations.me](https://cgtranslations.me/konosuba) using Node.js.
 
 Model is trained on [Google Colab](https://colab.research.google.com).
