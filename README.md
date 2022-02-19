@@ -12,6 +12,12 @@ The API server runs on [FastAPI](https://fastapi.tiangolo.com) and [Uvicorn](htt
 
 > Another note: I am not proficient with Python, so if you see JavaScript code that's the reason why :p
 
+## Example
+
+Kazuma is pretty dumb so don't expect GPT-3 level of responses lol
+
+![Example converstation with Kazuma](screenshots/example1.png)
+
 ## Usage
 
 Clone the project
