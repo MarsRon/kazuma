@@ -8,11 +8,11 @@
     "dev": "nodemon",
     "start": "node ."
   },
-  "author": "MarsRon <marsron204@gmail.com> (https://marsron.ml)",
+  "author": "MarsRon <marsron204@gmail.com> (https://marsron.name.my)",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.24.0",
-    "jsdom": "^19.0.0"
+    "axios": "^1.6.8",
+    "jsdom": "^24.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"

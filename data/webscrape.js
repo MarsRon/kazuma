@@ -66,5 +66,5 @@ readMainDirectory()
   .then(async content => content.replace(/<tl note:.*?>\n?/gi, ''))
   .then(content => {
     fs.writeFile('./full-data.txt', content)
-    require('./prepare-training-data')
+    import('./prepare-training-data')
   })
